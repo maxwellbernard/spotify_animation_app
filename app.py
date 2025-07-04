@@ -349,57 +349,121 @@ st.markdown(
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
+
     st.markdown(
-        """
-        <div style="border: 1px solid #d3d3d3; padding: 10px; border-radius: 10px;
-                    text-align: center; height: 75px;
-                    background: linear-gradient(to right, #f5f5f5, #fafafa);
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
-            <p style="font-size: 16px; font-weight: bold;">1. Upload Your Own Data &nbsp;📥</p>
+    """
+    <div style="
+        border: 1px solid #d3d3d3; 
+        padding: 10px; 
+        border-radius: 10px;
+        text-align: center; 
+        height: 75px;
+        background: linear-gradient(to right, #f5f5f5, #fafafa);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ">
+        <div style="line-height: 1.2;">
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Upload Your
+            </p>
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                History &nbsp;📥
+            </p>
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    </div>
+    """,
+    unsafe_allow_html=True,
+) 
 
 with col2:
     st.markdown(
-        """
-        <div style="border: 1px solid #d3d3d3; padding: 10px; border-radius: 10px;
-                    text-align: center; height: 75px;
-                    background: linear-gradient(to right, #f5f5f5, #fafafa);
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
-            <p style="font-size: 16px; font-weight: bold;">2. Customize Your Preferences &nbsp;📊</p>
+    """
+    <div style="
+        border: 1px solid #d3d3d3; 
+        padding: 10px; 
+        border-radius: 10px;
+        text-align: center; 
+        height: 75px;
+        background: linear-gradient(to right, #f5f5f5, #fafafa);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ">
+        <div style="line-height: 1.2;">
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Customize Your
+            </p>
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Preferences &nbsp;📊
+            </p>
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    </div>
+    """,
+    unsafe_allow_html=True,
+    ) 
 
 with col3:
     st.markdown(
-        """
-        <div style="border: 1px solid #d3d3d3; padding: 10px; border-radius: 10px;
-                    text-align: center; height: 75px;
-                    background: linear-gradient(to right, #f5f5f5, #fafafa);
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
-            <p style="font-size: 16px; font-weight: bold;">3. Generate Animations &nbsp;🎞️</p>
+    """
+    <div style="
+        border: 1px solid #d3d3d3; 
+        padding: 10px; 
+        border-radius: 10px;
+        text-align: center; 
+        height: 75px;
+        background: linear-gradient(to right, #f5f5f5, #fafafa);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ">
+        <div style="line-height: 1.2;">
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Generate
+            </p>
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Animations 🎞️
+            </p>
         </div>
-        """,
-        unsafe_allow_html=True,
+    </div>
+    """,
+    unsafe_allow_html=True,
     )
 
 with col4:
     st.markdown(
-        """
-        <div style="border: 1px solid #d3d3d3; padding: 10px; border-radius: 10px;
-                    text-align: center; height: 75px;
-                    background: linear-gradient(to right, #f5f5f5, #fafafa);
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
-            <p style="font-size: 16px; font-weight: bold;">4. Download and Share! &nbsp;💾</p>
+    """
+    <div style="
+        border: 1px solid #d3d3d3; 
+        padding: 10px; 
+        border-radius: 10px;
+        text-align: center; 
+        height: 75px;
+        background: linear-gradient(to right, #f5f5f5, #fafafa);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ">
+        <div style="line-height: 1.2;">
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                Download
+            </p>
+            <p style="font-size: 16px; font-weight: bold; margin: 0;">
+                and Share! &nbsp;💾
+            </p>
         </div>
-        """,
-        unsafe_allow_html=True,
+    </div>
+    """,
+    unsafe_allow_html=True,
     )
-
 st.markdown("<br>", unsafe_allow_html=True)
 
 with st.expander("Click here to see what my visualizations look like!"):

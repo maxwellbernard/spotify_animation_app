@@ -127,5 +127,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# ignore secrets.toml file
+secrets.toml
 
 *.DS_Store
