@@ -11,8 +11,8 @@ from typing import Dict, List
 
 import matplotlib.pyplot as plt
 import spotipy
+import streamlit as st
 from colorthief import ColorThief
-from dotenv import load_dotenv
 from matplotlib.font_manager import FontProperties
 from PIL import Image
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -23,9 +23,8 @@ image_cache = {}
 error_logged = set()
 
 # load environment variables
-load_dotenv()
-client_id = os.getenv("SPOTIFY_CLIENT_ID")
-client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
+client_id = st.secrets["SPOTIFY_CLIENT_ID"]
+client_secret = st.secrets["SPOTIFY_CLIENT_SECRET"]
 
 client_credentials_manager = SpotifyClientCredentials(
     client_id=client_id, client_secret=client_secret
