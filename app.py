@@ -734,7 +734,7 @@ st.markdown(
 
     You are free to use, modify, and distribute this software under the terms of the GPLv3.
 
-    For more details, visit the [GitHub repository](https://github.com/maxwellbernard).
+    For more details, visit the [GitHub repository](https://github.com/maxwellbernard/spotify_animation_app).
     """,
     unsafe_allow_html=True,
 )
